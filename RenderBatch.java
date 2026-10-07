@@ -1,0 +1,1 @@
+package br.com.fastfps.render; public final class RenderBatch{public static final int SOLID=0,CUTOUT=1,TRANSLUCENT=2;private final int layer;private boolean dirty;public RenderBatch(int l){layer=l;}public int layer(){return layer;}public void dirty(){dirty=true;}public boolean isDirty(){return dirty;}public void clean(){dirty=false;}}

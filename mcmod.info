@@ -1,0 +1,1 @@
+[{"modid":"fastfps","name":"FastFps","description":"Minecraft 1.9 rendering and chunk scheduling optimization.","version":"${version}","mcversion":"${mcversion}","authorList":["FastFps"],"dependencies":[]}]

@@ -1,0 +1,1 @@
+package br.com.fastfps.render; public final class EntityCuller{private EntityCuller(){}public static boolean withinDistanceSq(double x,double y,double z,double cx,double cy,double cz,double max){double a=x-cx,b=y-cy,c=z-cz;return a*a+b*b+c*c<=max*max;}}

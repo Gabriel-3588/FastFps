@@ -1,0 +1,1 @@
+package br.com.fastfps.util; public final class SystemHardwareUtils{public static final int PROCESSOR_COUNT=Runtime.getRuntime().availableProcessors();public static int getOptimalWorkerThreads(){return Math.max(1,Math.min(4,PROCESSOR_COUNT-2));}public static boolean isLowMemoryEnvironment(){return Runtime.getRuntime().maxMemory()/(1024*1024)<2048;}private SystemHardwareUtils(){}}

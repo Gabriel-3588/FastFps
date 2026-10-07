@@ -1,0 +1,1 @@
+package br.com.fastfps.render; public final class RenderBatchManager{private final RenderBatch[]b={new RenderBatch(0),new RenderBatch(1),new RenderBatch(2)};public RenderBatch get(int l){return l<0||l>=b.length?null:b[l];}public void markDirty(int l){RenderBatch x=get(l);if(x!=null)x.dirty();}}

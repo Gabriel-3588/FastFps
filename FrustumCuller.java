@@ -1,0 +1,1 @@
+package br.com.fastfps.render; public final class FrustumCuller{private FrustumCuller(){}public static boolean sphereVisible(float x,float y,float z,float r,float[]p){for(int i=0;i<6;i++)if(p[i*4]*x+p[i*4+1]*y+p[i*4+2]*z+p[i*4+3]<-r)return false;return true;}}

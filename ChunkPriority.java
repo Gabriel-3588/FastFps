@@ -1,0 +1,2 @@
+package br.com.fastfps.chunk;
+public final class ChunkPriority {private ChunkPriority(){} public static int score(int x,int z,int px,int pz,float dx,float dz,boolean visible,boolean missing,boolean predictive){int ax=x-px,az=z-pz,d2=ax*ax+az*az;float len=(float)Math.sqrt((double)ax*ax+(double)az*az);float dot=len==0?1:(ax*dx+az*dz)/len;int s=10000-Math.min(9000,d2*20);s+=(int)(Math.max(-1f,Math.min(1f,dot))*2500);if(visible)s+=4000;if(missing)s+=3500;if(predictive)s+=Math.max(0,(int)(dot*2000));return s;}}

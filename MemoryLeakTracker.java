@@ -1,0 +1,1 @@
+package br.com.fastfps.util; import java.util.concurrent.atomic.AtomicInteger; public final class MemoryLeakTracker{private static final AtomicInteger N=new AtomicInteger();public static int register(){return N.incrementAndGet();}public static int release(){return Math.max(0,N.decrementAndGet());}public static int live(){return N.get();}private MemoryLeakTracker(){}}

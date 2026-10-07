@@ -1,0 +1,1 @@
+package br.com.fastfps.render; public final class ParticleBudget{private int max=2048;public void update(float ms){if(ms>25)max=Math.max(128,max/2);else if(ms<14)max=Math.min(8192,max+64);}public boolean allow(int live){return live<max;}public int max(){return max;}}

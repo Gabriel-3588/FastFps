@@ -1,0 +1,1 @@
+package br.com.fastfps.chunk; public final class ChunkKey {private ChunkKey(){} public static long of(int x,int z){return((long)x<<32)^(z&0xffffffffL);} public static int x(long k){return(int)(k>>32);}public static int z(long k){return(int)k;}}
