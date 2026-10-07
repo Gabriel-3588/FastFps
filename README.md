@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Baixe o mod `.jar` vá na pagina de [Releases](https://github.com/lidanthedev/BackportedCompletions/releases) baixe la.
+1. Baixe o mod `.jar` vá na pagina de [Releases](https://github.com/Gabriel-3588/FastFps/releases) baixe la.
 2. Coloque o arquivo `.jar` na pasta `mods` para funcionar.
 3. Apenas compativel com a versão 1.9 + Forge(Em breve mais versões.)
 
